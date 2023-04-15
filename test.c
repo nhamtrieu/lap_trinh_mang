@@ -1,10 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <string.h>
 
-int main() {
-    printf("hello world\n");
-    int n;
-    scanf("%d", &n);
-    int i = 1;
-    for(i; i <= n; i++)
-        printf("So ban da nhap la: %d\n", i);
+int main()
+{
+    char a[1000] = "Vu Minh Hieu";
+    char *b = strstr(a, "Minh");
+    if (b != NULL)
+    {
+        printf("%s\n", b);
+    }
 }
