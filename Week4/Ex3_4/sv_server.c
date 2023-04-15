@@ -82,8 +82,8 @@ int main(int argc,char * argv[]){
         }
         else{
             printf("Getting data...\n");
-            printf("%s %s %d %d %d %lf %s %s",stu.mssv,stu.name,stu.date.year,stu.date.month,stu.date.date,stu.average_point,stu.ip,stu.current_time);
-            fprintf(input,"%s %s %d %d %d %lf %s %s",stu.mssv,stu.name,stu.date.year,stu.date.month,stu.date.date,stu.average_point,stu.ip,stu.current_time);
+            printf("%s %s %d-%d-%d %lf %s %s",stu.mssv,stu.name,stu.date.year,stu.date.month,stu.date.date,stu.average_point,stu.ip,stu.current_time);
+            fprintf(input,"%s %s %d-%d-%d %lf %s %s",stu.mssv,stu.name,stu.date.year,stu.date.month,stu.date.date,stu.average_point,stu.ip,stu.current_time);
         }
     }
 
